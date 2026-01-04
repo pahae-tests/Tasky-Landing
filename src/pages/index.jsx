@@ -52,8 +52,8 @@ export default function Home() {
 
   const handleDownload = () => {
     const link = document.createElement('a');
-    link.href = '/app.exe';
-    link.download = 'Tasky-Setup.exe';
+    link.href = '/Tasky.exe';
+    link.download = 'Tasky.exe';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
